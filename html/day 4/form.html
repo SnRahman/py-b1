@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <!-- <input> -->
+            <h3> text input </h3>
+            <input type="text" >
+
+            <hr>
+            <h3> number input </h3>
+            <input type="number" >
+
+            <hr>
+            <h3> password input </h3>
+            <input type="password" name="" id="">
+
+            <hr>
+            <h3> radio input </h3>
+            <label> 
+                Gender:
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </label>
+            
+
+            <hr>
+            <h3> checkbox input </h3>
+            <input type="checkbox">Maths
+            <input type="checkbox">Physics
+            <input type="checkbox">Php
+            <input type="checkbox">python
+            
+            <h3> textarea </h3>
+            
+            <textarea rows="5" cols="30" > </textarea>
+            
+            <h3> label </h3>
+            
+            <label for="first_name"> First Name </label>
+            <input type="text" name="" id="first_name" >
+            
+            <hr>
+            <h3> drop down - list - selection </h3>
+
+            <label for="subjects">Choose any subject</label>
+            <select id="subjects">
+                    <option> Maths </option>
+                    <option> Physics </option>
+                    <option> Php </option>
+                    <option> Python </option>
+            </select>
+
+            <hr>
+            <h3> Button </h3>
+
+            <input type="submit" value="submit form" >
+            <input type="button" value=" Signup ">
+
+            <button> submit </button>
+            <button type="submit"> submit </button>
+            <button type="button">  button   </button>
+
+            <hr>
+            <h3> option group </h3>
+
+            <label for="subjects">Choose any subject</label>
+            <select id="subjects">
+                <optgroup label=" Conventional " >
+                    <option> Maths </option>
+                    <option> Physics </option>
+                </optgroup>
+                    
+                <optgroup label="Programing">
+                    <option> Php </option>
+                    <option> Python </option>
+                </optgroup>
+            
+            </select>
+        </form>
+
+        <h1>Field set</h1>
+        <form>
+            <fieldset>
+                <legend> Personal Information </legend>
+
+                <label for="name"> Name </label>
+                <input type="text" id="name">
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Interests </legend>
+
+                <label for="name"> Name </label>
+                <input type="text" id="name">
+
+
+            </fieldset>
+
+
+                <h1> file </h1>
+                <label for="docs"> Uplaod docs. </label>
+                <input type="file" id="docs" >
+
+        </form>
+
+
+
+    </body>
+</html>
