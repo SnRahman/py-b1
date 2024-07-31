@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+            <title>Forms</title>
+            <style>
+                .data {
+                    background-color: aqua;
+                }
+
+            </style>
+        </head>
+        <body>
+
+            <!-- GET And POST -->
+            <!-- <form action ="server.html" method="POST"> -->
+                <!-- <form action ="" method="GET" target="_blank"> -->
+                <form action ="" method="GET" target="_self">
+
+                <!-- list , array -->
+                <!-- [ 1,2,3.4,5,6,7 ] -->
+
+                <h1> data list </h1>
+                <!-- <input type="text" placeholder=" Enter City " name="city[]"  list="cities">
+                <input type="text" placeholder=" Enter City " name="city[]"  list="cities">
+                <input type="text" placeholder=" Enter City " name="city[]"  list="cities"> -->
+                <input type="text" placeholder=" Enter City " name="city"  list="cities" autocomplete="off">
+
+                <datalist id="cities">
+                    <option value=" Lahore ">
+                    <option value=" Karachi ">
+                    <option value=" Multan ">
+                </datalist>
+
+                <hr>
+
+                <h1>output </h1>
+
+                <output> answer </output>
+                <hr>
+                <button> submit </button>
+
+            </form>
+            <hr>
+
+            <form action="" method="POST" novalidate>
+
+                <input type="text" name="name"  placeholder="First Name" required>
+
+            <button>Submit</button>
+            </form>
+
+            <hr>
+            <h1> Selected </h1>
+            <form action="">
+                <select name="city">
+                    <option value=""> Karachi  </option>
+                    <option value=""> Faisalabad  </option>
+                    <option value=""> Sakhar  </option>
+                    <option value=""> Rawalpindi  </option>
+                    <option value=""  > Lahore  </option>
+                    <option value="" selected> Multan  </option>
+                </select>
+
+                    <h1> multiple </h1>
+                <select name="city" multiple>
+                    <option value=""> Karachi  </option>
+                    <option value=""> Faisalabad  </option>
+                    <option value=""> Sakhar  </option>
+                    <option value=""> Rawalpindi  </option>
+                    <option value=""> Lahore  </option>
+                    <option value=""> Multan  </option>
+                </select>
+
+                <h1>Value</h1>
+                <input type="text" value="test" >
+
+                <h1>Read only</h1>
+                <input type="text" value="test" readonly>
+                
+                <h1> disabled </h1>
+                <input type="text" value="test" disabled>
+                <button disabled> submit </button>
+                
+                <h1>size</h1>
+                
+                <input type="text"  placeholder=" name" size="50"> 
+
+                
+                <h1> Pattern</h1>
+                <!-- [0-9 a-z]+ -->
+                <input type="text" pattern="[0-9]{4}">
+
+
+                <button> submit </button>
+
+
+                <h1 class="data">section tags - div</h1>
+                
+
+                <div class="data" id="dat_id" >
+                    <h1> min </h1>
+
+                    <input type="number" min="13">
+
+                    <h1> max </h1>
+
+                    <input class="data" type="number" max="65">
+                    
+                    <h1> step </h1>
+                    
+                    <input type="number" step="0.01" >
+
+                </div>
+
+
+                <h1>header</h1>
+                
+                <header>
+
+                </header>
+
+                <h1>header</h1>
+                
+                <footer>
+
+                </footer>
+
+                <h1>nav </h1>
+                <nav>
+                    
+                </nav>
+                
+                <h1> main </h1>
+                
+                <main>
+                    main site data
+                </main>
+                
+                <h1> section </h1>
+
+                <section>
+                    
+                </section>
+
+
+                <h1> article </h1>
+                <article>
+                    <h1> test </h1>
+                    <h3> author : date :  </h3>
+                    <p></p>
+                </article>
+
+                <h1>aside</h1>
+
+                <aside>
+                    <h1> related porducts </h1>
+                    <ul>
+                        <li> porduct 1 </li>
+                        <li> porduct 2 </li>
+                        <li> porduct 3 </li>
+                        <li> porduct 4 </li>
+                    </ul>
+                </aside>
+
+                <h1> details </h1>
+                <details>
+                    <summary> want to know more </summary>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam accusamus veritatis magni perspiciatis voluptate ea inventore laborum debitis provident possimus. Atque necessitatibus autem quas? Quaerat officiis ipsa enim eaque facilis. </p>
+                </details>
+
+                <h1>figure</h1>
+                <figure>
+
+                    <img src="../images/company.png" width="600px">
+                    <figcaption>Lorem ipsum dolor, sit amet consectetur </figcaption>
+                </figure>
+                
+            </form>
+                
+        </body>
+</html>
