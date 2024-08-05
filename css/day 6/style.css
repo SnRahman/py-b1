@@ -1,0 +1,125 @@
+/* p {
+
+}
+
+.p {
+    
+#p{
+
+}
+} */
+
+
+#external {
+    background-color: bisque;
+
+    /* text alignemnt   */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align-last: center; */
+
+    /* change text color */
+    /* color: blueviolet; */
+}
+
+
+.text-decoration {
+    /* text-decoration-line: line-through; */
+    text-decoration-line:overline;
+    /* text-decoration-line:underline; */
+    
+    /* text-decoration-color: #FF0101; */
+    text-decoration-color: rgb(218,165,32);
+    
+    /* text-decoration-style: wavy; */
+    /* text-decoration-style:double; */
+    text-decoration-style:dotted;
+
+    text-decoration-thickness: 2px;
+    
+    text-decoration: underline red wavy 3px ;
+
+    text-decoration: none;
+
+}
+
+.text-transform {
+    /* text-transform: capitalize; */
+    /* text-transform:uppercase; */
+    /* text-transform:lowercase; */
+    text-transform: none;
+}
+
+.text-spacing {
+    text-indent: 10%;
+    /* letter-spacing: 10px; */
+    /* line-height: 15px; */
+    word-spacing: 10px;
+
+}
+
+.text-shadow {
+    /* text-shadow: 5px 5px 5px red; */
+    /* text-shadow: -5px -5px 5px red; */
+    text-shadow: 5px 5px 5px red , -5px -5px 5px blue;
+}
+
+
+
+
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+    /* font-style: italic; */
+
+    /* font-weight: 900; */
+    font-weight: 600;
+}
+
+.box {
+    border: 1px double red;
+  
+
+    /* border-width: 5px;
+    border-style: groove;
+    border-color: blue; */
+
+    /* border:none; */
+
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.margin-1 {
+    /* margin-left: 50px;
+    margin-top:50px;
+    margin-bottom: 50px; */
+    /* margin-right: 50px; */
+
+
+    /* margin: 50px; */
+    /* margin: 50px 100px; */
+    margin: 50px 100px 150px 200px ;
+}
+
+
+.padding {
+    /* padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 50px; */
+
+    /* padding: 50px; */
+    /* padding: 50px 40px; */
+    padding: 50px 40px 100px 200px;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 5px red;
+    box-shadow: -5px -5px 5px blue;
+    box-shadow: 5px 5px 5px red, -5px -5px 5px blue;
+}
+
