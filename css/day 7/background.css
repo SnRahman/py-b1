@@ -1,0 +1,81 @@
+.bg-color {
+    /* background-color: aqua; */
+    background-color: #000 ;
+    background-color: rgb(155, 200, 255) ;
+    height: 100px;
+    width: 100px;
+}
+
+.bg-img {
+    /* background-image: url('../../html/images/sec-three-bg.jpg') ; */
+    /* background: red; */
+    background: url('../../html/images/sec-three-bg.jpg');
+    height: 1000px;
+    width: 1000px;
+}
+
+.bg-img-repeat {
+    border: 3px solid black;
+    height: 1500px;
+    width: 1500px;
+    background: url('../../bird2.png');
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+}
+
+.bg-img-position {
+    border: 3px solid black;
+    height: 1500px;
+    width: 1500px;
+    background: url('../../bird2.png');
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    /* background-position: center; */
+    /* background-position: bottom; */
+    /* background-position: right bottom; */
+    /* background-position: right center; */
+    /* background-position-x: right; */
+    background-position-y:bottom;
+}
+
+.bg-img-size {
+    /* border: 3px solid black; */
+    height: 1500px;
+    width: 1500px;
+    background: url('../../bird2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px 1400px;
+    background-color: aqua;
+}
+
+.bg-img-size h1 {
+    text-align: center;
+}
+
+.bg-img-clip {
+    border: 100px solid black;
+    height: 1500px;
+    width: 1500px;
+    padding: 50px;
+    background: url('../../bird2.png');
+    /* background-repeat: no-repeat; */
+    /* background-clip: border-box; */
+    /* background-clip:padding-box; */
+    background-clip:content-box;
+
+}
+
+.overflow {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    /* overflow: visible; */
+    /* overflow:hidden; */
+    overflow: scroll;
+}
+
+
+
