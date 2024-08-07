@@ -1,0 +1,23 @@
+p {
+    /* display: inline; */
+    height: 100px;
+}
+
+a {
+    /* display: block; */
+    display: inline-block;
+    height: 100px;
+}
+
+a, p {
+    background-color: aqua;
+}
+
+
+.box1 {
+    display: none;
+}
+
+.box2 {
+    visibility: hidden;
+}

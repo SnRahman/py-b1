@@ -1,0 +1,74 @@
+.box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.rel {
+   
+    /* position: static; */
+    position: relative;
+    
+    /* 
+    right:100px;
+    left:100px; 
+    top: 500px;
+    bottom: 50px;
+    
+    */
+}
+
+
+.fixed {
+   position: fixed;
+   right: 10px;
+   bottom: 20px;
+}
+
+.parent {
+    height: 1000px;
+    width: 5000px;
+    border: 3px solid salmon;
+    position: relative;
+}
+
+
+.absolute {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sticky {
+    position: sticky;
+    /* bottom: 0; */
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* left: -100px */
+    margin-left: auto;
+}
+
+/*  z index only works on positioned elements  */
+.element-1 {
+    background-color: aqua;
+    position: relative;
+    z-index: 3;
+}
+
+.element-2 {
+    background-color:blue;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    z-index: 2;
+
+}
+
+.element-3 {
+    background-color:red;
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+
+}
