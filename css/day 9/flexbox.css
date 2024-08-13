@@ -1,6 +1,8 @@
 .parent {
     height: 500px;
+    /* width: 300px; */
     background-color: aquamarine;
+    /* display: inline; */
     display: flex;
     /* flex-direction: row; */
     /* flex-direction: column; */
@@ -23,14 +25,17 @@
     /* justify-content:space-evenly; */
     /* justify-content:space-between; */
 
+
+    /* align accourdig to he row - within the row */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
     /* align-items: stretch; */
     /* align-items:baseline; */
 
+    /* align the complete data within the container- all rows */
     /* align-content: flex-start; */
-    align-content: flex-end;
+    /* align-content: flex-end; */
 
 
 }
