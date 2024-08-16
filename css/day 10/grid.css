@@ -12,8 +12,6 @@
     /* grid-template-columns: repeat(12,auto); */
     grid-template-columns: repeat(auto-fit, 100px);
 
-
-
 }
 
 .items {
