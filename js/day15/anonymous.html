@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anonymous Functions</title>
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <h3>Do these task using anonymous and arrow functions seperately.</h3>
+        <ul>
+            <li>Create a function that takes two numbers as input and returns the largest of the two.</li>
+            
+            <li>create a function that takes two strings as input and returns a new string that concatenates both if them.</li>
+            <li>Write a function that takes a temperature in celsius and converts it to Fahrenheit.</li>
+            <li>Write a program that takes the age and checks if they are eligible for voting (e.g 18 or older)</li>
+            <li>Implement a function that checks if a given number is positive, negative, or zero and return the result.</li>
+            <li>create a function that takes two numbers as input and returns their product  using arithmetic operations. (e.g the product of 2 and 3 is 6)</li>
+            <li>implement a function that takes two strings as input and checks if they are equal.</li>
+            <li>Write a function that takes a number as input and returns the absolute value of the number</li>
+        </ul>
+
+        <script>
+            console.log('anonymous functions')
+
+            function name() {}
+
+            function display() {
+                console.log('General Function')
+            }
+
+
+            display()
+
+            // (function () {
+            //     console.log('Anonymous Function')
+            // });
+
+
+            var test =  function () {
+                console.log('Anonymous Function')
+            }
+
+            test()
+            test()
+            test()
+            test()
+            test()
+
+
+            // anonymous function with paramerters
+            var sum = function(a,b,c) {
+                console.log( a+b+c )
+            }
+
+            sum(1,10,25)
+
+            // console.log( 25 + result )
+            
+            // returning function 
+            var sum = function(a,b,c) {
+                var result = a+b+c
+                console.log( result )
+                return result
+            }
+
+            let result1 =  sum(1,10,25)
+            console.log( 25 + result1 )
+
+
+            console.log('example')
+            // example
+            // 1 general
+            // function mul(a,b) {
+            //     console.log(a*b)
+            // }
+            // mul(10,2)
+
+            // 2 returning
+            // function mul(a,b) {
+            //     return a*b
+            // }
+            
+            // console.log( mul(10,2) )
+            // let mul1 = mul(10,3)
+            // console.log(mul1)
+            
+            // console.log( mul(10,5) )
+            // mul(10,2)
+            // mul(10,2)
+            // mul(10,2)
+
+            // console.log(mul1)
+
+            // 3 anonymous
+            // let mul = function (a,b) {
+            //     return a*b
+            // }
+
+            // var result = mul(41,10)
+            // console.log(result)
+
+
+            // arrow functions
+            // function test(){}
+            // let test = function () {}
+            // let test = () => {}
+
+            let mul = (a,b,c) => { 
+                console.log(a*b*c)
+            } 
+
+            mul(10,2,5)
+            mul(10,2,50)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+        </script>
+    </body>
+</html>
