@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arrays</title>
+    </head>
+    <body>
+        <script>
+            console.log('hello')  
+            
+            let result = ''
+            if(20 %2 == 0 ) {
+                console.log('even')
+                result = 'even'
+            } else {
+                // console.log('odd')
+                result = 'odd'
+            }
+
+            let result1 =  21 %2 == 0 ? 'even' : 'odd' ; 
+
+            console.log(result1)
+
+
+
+            // arrays
+            var a = [1,23,434,676,34]
+            var b = [
+                        1,23.09,'434',true,
+                        [12.23,234] , 
+                        ['dsfs','erwer', 
+                            [21321 ]]]
+
+            console.log(a)
+            console.log(b)
+            console.log(b[3])
+            console.log(b[4])
+            console.log(b[5])
+            console.log(b[5][23])
+            console.log(b[5][3])
+            console.log(b[5][2][0])
+
+            // check data type
+            // 1 typeof
+            console.log( typeof a )
+
+
+            // 2 instanceof
+            console.log( b instanceof Array )
+            console.log( b instanceof Number )
+
+
+            // 3 isinstance() 
+            console.log( Array.isArray(a) )
+            console.log( Number.isInteger(b) )
+
+
+            // arrays functions
+
+            // 1 tostring
+            let to_str =  a.toString()
+            console.log(to_str)
+            console.log( typeof to_str)
+
+
+            // 2 join
+            // let arr_join = a.join('+')
+            // let arr_join = a.join(' ')
+            let arr_join = a.join('')
+            console.log(arr_join)
+
+
+            // 3 insert new value in array
+            // a.push(234)
+            a.push(234,5675,7987,234)
+            console.log(a)
+            
+            // remove value from array
+            // 4 a.pop()
+            let poped_value = a.pop()
+            console.log(a)
+            console.log(poped_value)
+
+            // 5 unshift insert value at start in array
+
+            a.unshift(1000)
+            console.log(a)
+
+            // 6 shift remove value from start
+
+            // a.shift()
+            let shifted_value =  a.shift()
+            console.log(a)
+            console.log(shifted_value)
+
+            // 7 remove data from specific index
+            // a.splice(index_to_start, qty_to_remove)
+            // a.splice(1,2)
+            // a.splice(4,4)
+            console.log(a)
+            
+            // 8 add data at specific index
+            // a.splice(index_to_start, qty_to_remove,items_to_add....)
+            a.splice(1,0,12,1,5,36,78,25)
+            console.log(a)
+
+            // 9 add and remove at the same time
+            a.splice(2,1,2000)
+            console.log(a)
+            
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
